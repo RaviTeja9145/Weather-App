@@ -101,7 +101,7 @@ async function getWeather(currentLocation)
             throw new Error('error');
         }
         const data=await preData.json();
-        console.log(data);
+//         console.log(data);
         updateWeather(data);
     }
     catch{
