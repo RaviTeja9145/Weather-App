@@ -78,7 +78,7 @@ textarea:focus{
     outline: none;
     box-shadow: none;
 }
-.weather-icon{
+img.weather-icon{
     max-width:100px;
     max-height:100px;
 }
