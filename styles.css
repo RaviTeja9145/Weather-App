@@ -72,6 +72,9 @@ div.weather-details-text{
     .wind-last{
         padding: 50px;
     }
+    .img-div{
+        justify-content:center;
+    }
 }
 input.form-control:focus,
 textarea:focus{
