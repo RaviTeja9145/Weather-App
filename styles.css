@@ -92,5 +92,8 @@ textarea:focus{
         background-size: cover;
         background-position: center;
     }
+    .main-content{
+        margin-bottom:50px;
+    }
 }
     
