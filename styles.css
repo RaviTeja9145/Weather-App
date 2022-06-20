@@ -37,6 +37,7 @@ span#temp::after{
 .side{
     background: rgba(0,0,0,0);
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     /* overflow-y: scroll; */
 }
 .cloudy::after{
