@@ -88,7 +88,7 @@ textarea:focus{
 }
 @media (orientation: portrait){
     body{
-        background: url('./images/cloud-portrait');
+        background: url('./images/cloud-portrait.jpg');
     }
 }
     
