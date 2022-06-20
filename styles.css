@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/cloudy.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'jost',sans-serif;
+}
+.main-row{
+    width: 100vw;
+    height: 100vh;
+}
+.weather-display{
+    margin-bottom: 100px;
+}
+
+.light{
+    opacity: 0.8;
+}
+h1{
+    font-size: max(8vw,50px);
+    font-weight: 400;
+
+}
+h2{
+    font-size: max(4vw,50px);
+    font-weight: 400;
+}
+
+span#temp::after{
+    content: '°';
+}
+.side{
+    background: rgba(0,0,0,0);
+    backdrop-filter: blur(15px);
+    /* overflow-y: scroll; */
+}
+.cloudy::after{
+    content:'%';
+}
+.humidity::after{
+    content:'%';
+}
+.wind::after{
+    content:'Km/h';
+}
+.wind-last{
+    padding-bottom: 40px;
+    position: relative;
+}
+.wind-last::after{
+    content: '';
+    width: 95%;
+    left:10px;
+    bottom: 0px;
+    border-bottom: 2px solid white;
+    position: absolute;
+    border-bottom-color: rgba(255,255,255,0.5);
+
+}
+div.weather-details-text{
+    opacity: 1;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+@media(max-width:766px)
+{
+    .wind-last{
+        padding: 50px;
+    }
+}
+input.form-control:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: none;
+}
